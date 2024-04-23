@@ -8,6 +8,11 @@ function styles() {
         .pipe(gulp.dest('./dist/css'));
 }
 
+function images() {
+    return gulp.src('./src/img/**/*')
+        .pipe(imagemin())
+        .pipe(gulp.dest('./dist/img'));
+}
 
 exports.default = gulp.parallel(styles, images);
 
