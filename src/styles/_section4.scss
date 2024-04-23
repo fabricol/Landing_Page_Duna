@@ -1,0 +1,22 @@
+.fourthSection {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center; /* Alterado para centralizar horizontalmente */
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 5.6vw;
+
+    &__content {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
+        padding-left: 5.6vw;
+    }
+    h4 {
+        max-width: 500px;
+    }
+    
+}

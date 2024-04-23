@@ -1,0 +1,22 @@
+.firstSection {
+    height: 100vh;
+    background-image: url("/src/img/Dune.jpg");
+    background-size:cover;
+    background-position: center;
+    
+
+
+    &__countdown {
+        color: white;
+        font-size: 100px;
+        font-weight: bold;
+        text-align: center;
+        width: 100%;
+        padding: 5.6vw;
+        font-family: "Oswald", sans-serif;
+        &__text {
+            font-size: 80px;
+            font-family: "Oxanium", sans-serif;
+        }
+    }
+}

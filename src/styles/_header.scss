@@ -1,0 +1,19 @@
+
+.header {
+    
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #040714;
+    z-index: 1;
+    
+    &__links {
+        display: flex;
+        justify-content: end;
+        }
+    .button{
+        height: 50px;
+    }
+}
+
+
