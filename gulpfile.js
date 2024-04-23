@@ -5,13 +5,13 @@ const imagemin = require('gulp-imagemin');
 function styles() {
     return gulp.src('./src/styles/*.scss')
         .pipe(sass({outputStyle: 'compressed'}))
-        .pipe(gulp.dest('./dist/css'));
+        .pipe(gulp.dest('./public/css')); // Update destination path to './public/css'
 }
 
 function images() {
     return gulp.src('./src/images/**/*')
         .pipe(imagemin())
-        .pipe(gulp.dest('./dist/images'));
+        .pipe(gulp.dest('./public/images')); // Update destination path to './public/images'
 }
 
 exports.default = gulp.parallel(styles, images);
